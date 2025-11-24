@@ -47,11 +47,11 @@ python linear_regression_from_scratch_univariate.py
 📁 linear-regression-from-scratch-univariate
 ├── linear-regression-from-scratch-univariate.py   # Core calculations: cost, gradient descent, training
 ├── data/
-│   └── data.csv           # Dataset
+│   └── data.csv           # Dataset(The data contains one independent variable, which is population size, │                                     and one dependent variable, which is profit.)
 ├── results/
 │   ├── prediction.png     # Predicted regression line
 │   └── error.png          # Error over iterations
-├── model_theta.npy        # Learned parameters
+├── model_theta.npy        # Saved model parameters for reuse
 ├── requirements.txt
 └── README.md
 
@@ -59,21 +59,12 @@ python linear_regression_from_scratch_univariate.py
 
 ```
 ## 🛠️ Usage
-Example usage inside Python:
-```python
-from linear-regression-from-scratch-univariate import computeCost, gradientDescent, predict
+Run the script to see results.
 
-# Load dataset and preprocess
-# Train model
-# Evaluate predictions
-# Plot results
-
-
-
-```
 Expected output:
 - prediction.png → Predicted line vs training data
 - error.png → Cost function over training iterations
+- Expected R^2 Score: ~0.70 (This score is considered very good, given that the model is univariate and working on real/experimental data.)
 
 ## ✅ Evaluation Metrics
 - Mean Squared Error (MSE)
