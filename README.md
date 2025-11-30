@@ -1,4 +1,4 @@
-# 📊 Linear Regression from Scratch (Univariate)
+# 🤖 Linear Regression from Scratch (Univariate)
 A Python project implementing Linear Regression from scratch using NumPy, without relying on any ML libraries like scikit-learn.
 The goal is to understand the full mathematical workflow behind Linear Regression, including dataset preparation, cost function, gradient descent, training, and evaluation.
 ## ✨ Features
@@ -62,8 +62,7 @@ jupyter notebook linear_regression_from_scratch_multivariate.ipynb
 
 ```
 ## 🛠️ Usage
-Run the script to see results.
-
+Run the notebook to train the model and generate results.
 Expected output:
 - prediction.png → Predicted line vs training data
 - error.png → Cost function over training iterations
